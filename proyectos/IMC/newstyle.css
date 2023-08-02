@@ -1,0 +1,86 @@
+body {
+    background-color: #1E2225;
+    color: #b9c8d3;
+    font-family: 'Trebuchet MS';
+    background-image: url("escheresque_ste.png");
+    background-repeat: repeat;
+    font-size: 14px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+#textoBanner {
+    color: #1E2225;
+}
+
+#bannerSuperior {
+    background-color: #c78d28;
+    font-size: smaller;
+    color: #fff
+}
+
+#bannerSuperior a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+  #bannerSuperior a:hover {
+    color: #555;
+}
+
+#calculadoraGlobal {
+    border: 2px solid #b9c8d3;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 575px;
+    padding: 10px;
+}
+  
+  .calculadora label {
+    margin-bottom: 5px;
+  }
+
+  .button {
+    display: inline-block;
+  }
+
+.formElement {
+    padding: 4px;
+}
+
+#peso {
+    margin: 2px 20px
+}
+
+#altura {
+    margin: 2px 20px
+}
+
+.buttons {
+    padding: 3px;
+}
+
+.button:hover {
+    background-color: #c78d28;
+    box-shadow: 2px 2px 2px black;
+}
+
+#enlaces-utiles a {
+    color: #c78d28;
+}
+
+#enlaces-utiles a :hover {
+    color: #b9c8d3;
+}
+
+li {
+    padding: 2px;
+}
+
+#siluetas {
+    scale: 80px
+}

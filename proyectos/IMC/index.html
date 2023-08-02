@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IMC</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="index.js" async defer></script>
+    <link rel="stylesheet" href="newstyle.css">
+</head>
+
+<body>
+    <div id="bannerSuperior">
+    <h1 id="textoBanner">
+        <a href="#calculadora">CALCULADORA</a> |
+        <a href="#que-es-imc">¿QUÉ ES EL IMC?</a> |
+        <a href="#enlaces-utiles">ENLACES ÚTILES</a> |
+        <a href="#sobre-esta-web">SOBRE ESTA WEB</a>
+    </h1>
+</div>
+    <div>
+        <h1 id="tituloPagina">Calculadora de índice de masa corporal</h1>
+    </div>
+    <div id="calculadoraGlobal">
+
+        <h2> Ingresa tus datos aquí </h2>
+            <form id="calculadora">
+                <form id="calculadora">
+                    <div class="formElement">
+                      <label for="peso">Peso:</label>
+                      <input type="number" id="peso" name="peso" min="0" max="200" title= "Ingresa tu peso en kilogramos" placeholder="kg" required >
+                    
+                      <label for="altura">Altura:</label>
+                      <input type="number" id="altura" name="altura" min="0.5" max="2.5" step="0.01" title= "Ingresa tu altura en metros" placeholder="mts" required >
+                    </div>
+                    <div class="buttons">
+                      <button class="button" onclick="calculateBMI()">Calcular</button>
+                      <button class="button" type="reset">Borrar</button>
+                    </div>
+                </form>
+
+        </table>
+
+
+    </div>
+    <div id="result"></div>
+    <div id="aclaracion">
+        <p>Recuerda que para un correcto funcionamiento de la calculadora debes ingresar el peso en kilogramos y la
+            altura en metros</p>
+    </div>
+    <div>
+        <img id="siluetas" src="./resources/siluetas.jpg">
+    </div>
+    <div>
+        <h3 class="titulo" id="que-es-imc">¿Qué es el índice de masa corporal?</h3>
+        <p>
+            Es la medida que relaciona el peso y la estatura del cuerpo humano. El índice de masa corporal (IMC) a veces
+            se
+            usa para calcular la cantidad de grasa corporal y comprobar si una persona tiene un peso saludable. El
+            exceso de
+            grasa se vincula con un mayor riesgo de algunas enfermedades, como las enfermedades del corazón y algunos
+            tipos
+            de cáncer. También se llama IMC y índice de Quetelet.
+            El IMC se usa como una herramienta de detección, pero no diagnostica la grasa corporal ni la salud de un
+            individuo. Para determinar si el exceso de peso es un riesgo para la salud, un proveedor de atención médica
+            necesitará realizar evaluaciones adicionales. Estas evaluaciones pueden incluir la medición del grosor de
+            los
+            pliegues cutáneos, evaluaciones de la alimentación, la actividad física, y los antecedentes familiares.
+            Otros métodos para medir la grasa corporal incluyen mediciónes del grosor de los pliegues cutáneos (con
+            calibres), pesaje bajo el agua, impedancia bioeléctrica, la absorciometría dual de rayos X (DXA) y la
+            dilución
+            de isótopos 1,2,3. Sin embargo, estos métodos no siempre están disponibles y o son costosos o requieren
+            personal
+            altamente capacitado para realizarlos. Además, muchos de estos métodos pueden ser difíciles de estandarizar
+            entre los observadores o máquinas, lo cual complica las comparaciones de los estudios y periodos de tiempo.
+        </p>
+    </div>
+
+    <div>
+        <h3 class="titulo" id="enlaces-utiles">Enlaces útiles</h3>
+        <ul>
+            <li>
+                <a href="https://www.gub.uy/ministerio-salud-publica/">Ministerio de Salud Pública de Uruguay</a>:
+                Página web del Ministerio de Salud Pública de Uruguay donde se puede encontrar información sobre
+                alimentación saludable, actividad física y cálculo del IMC.
+            </li>
+            <li>
+                <a
+                    href="https://www.scielo.edu.uy/scielo.php?script=sci_arttext&pid=S1688-04202020000300006&lng=es&tlng=es">IMC
+                    en niños y adolescentes en Uruguay</a>: Artículo de la revista Uruguaya de Cardiología donde se
+                explica cómo se debe calcular el IMC en niños y adolescentes en Uruguay.
+            </li>
+            <li>
+                <a href="http://www.suc.org.uy/web/imc/">Calculadora del IMC de la Sociedad Uruguaya de Cardiología</a>:
+                Página web de la Sociedad Uruguaya de Cardiología donde se puede encontrar una calculadora del IMC para
+                adultos.
+            </li>
+            <li>
+                <a
+                    href="https://www.gub.uy/ministerio-salud-publica/comunicacion/publicaciones/guias-alimentarias/guias-alimentarias-poblacion-uruguaya">Guía
+                    Alimentaria para la población Uruguaya</a>: Guía alimentaria del Ministerio de Salud Pública de
+                Uruguay donde se encuentran recomendaciones para una alimentación saludable y se explica cómo se puede
+                calcular el IMC.
+            </li>
+            <li>
+                <a href="http://www.sociedaduruguayadenutricion.org.uy/">Página web de la Sociedad Uruguaya de
+                    Nutrición</a>: Página web de la Sociedad Uruguaya de Nutrición donde se puede encontrar información
+                sobre alimentación saludable, nutrición y obesidad.
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <h3 class="titulo" id="sobre-esta-web">Sobre ésta web</h3>
+        <p>
+            ¡Bienvenidos a nuestra página web! Aquí encontrarás un espacio en línea dedicado a brindar información útil
+            y entretenida para todos los usuarios interesados en diversos temas. Nuestro objetivo es ofrecer contenido
+            de calidad y diverso, desde noticias y artículos informativos hasta consejos prácticos y recomendaciones
+            sobre temas de interés general.
+            Creada por Juanm Manuel Maga, 2023.
+        </p>
+    </div>
+</body>
+
+</html>
+
